@@ -1,12 +1,3 @@
-/*  ░██████╗░██████╗░██╗░░░░░░░░██╗░██████╗░░░░█████╗░██████╗░░██████╗░
-    ██╔════╝░██╔══██╗██║░░░░░░░░██║██╔════╝░░░██╔══██╗██╔══██╗██╔════╝░
-    ██║░░██╗░██║░░██║██║░░░░░░░░██║╚█████╗░░░░██║░░██║██████╔╝██║░░██╗░
-    ██║░░╚██╗██║░░██║██║░░░██╗░░██║░╚═══██╗░░░██║░░██║██╔══██╗██║░░╚██╗
-    ╚██████╔╝██████╔╝██║██╗╚█████╔╝██████╔╝██╗╚█████╔╝██║░░██║╚██████╔╝
-    ░╚═════╝░╚═════╝░╚═╝╚═╝░╚════╝░╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝░╚═════╝░
-                             ｖ ２．０．１８
-A Script Redesigned by Parveen Bhadoo from GOIndex at https://github.com/AmirulAndalib/Google-Drive-Index */
-
 // add multiple serviceaccounts as {}, {}, {}, random account will be selected by each time app is opened.
 const serviceaccounts = [
 {}
@@ -14,7 +5,7 @@ const serviceaccounts = [
 const randomserviceaccount = serviceaccounts[Math.floor(Math.random()*serviceaccounts.length)];
 
 const authConfig = {
-    "siteName": "Bhadoo Drive Index", // Website name
+    "siteName": "Oshekher Drive Index", // Website name
     "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
     "refresh_token": "", // Authorize token
@@ -78,11 +69,11 @@ const uiConfig = {
     "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_view_alert_class": "alert alert-danger", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
-    "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
-    "copyright_year": "2050", // year of copyright, can be anything like 2015 - 2020 or just 2020
-    "company_name": "gdi.js.org", // Name next to copyright
-    "company_link": "https://telegram.dog/Telegram", // link of copyright name
-    "credit": true, // Set this to true to give us credit
+    "contact_link": "https://t.me/PurityWasHere", // Link to Contact Button on Menu
+    "copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
+    "company_name": "puritywashere.cf", // Name next to copyright
+    "company_link": "https://t.me/PurityWasHere", // link of copyright name
+    "credit": false, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
     "display_download": true, // Set this to false to hide download icon for folder and files on main index
@@ -91,17 +82,17 @@ const uiConfig = {
     "disable_video_download": false, // Remove Download, Copy Button on Videos
     "second_domain_for_dl": false, // If you want to display other URL for Downloading to protect your main domain.
     "downloaddomain": "https://testing.fetchgoogleapi.workers.dev", // If "second_domain_for_dl": true then enter downloaddomain otherwise keep empty. eg. https://workers.workersname.workers.dev No Trailing '/'
-    "poster": "https://cdn.jsdelivr.net/gh/AmirulAndalib/Google-Drive-Index@2.0.10/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
-    "audioposter": "https://cdn.jsdelivr.net/gh/AmirulAndalib/Google-Drive-Index@2.0.10/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
-    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/AmirulAndalib/Google-Drive-Index", // If Project is Forked, then enter your Github repo
+    "poster": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.10/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
+    "audioposter": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.10/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
+    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index", // If Project is Forked, then enter your Github repo
     "render_head_md": true, // Render Head.md
     "render_readme_md": true, // Render Readme.md
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
-    "plyr_io_version": "3.6.4", // Change plyr.io version in future when needed.
+    "plyr_io_version": "3.6.8", // Change plyr.io version in future when needed.
     "plyr_io_video_resolution": "16:9", // For reference, visit: https://github.com/sampotts/plyr#options
     "unauthorized_owner_link": "https://telegram.dog/Telegram", // Unauthorized Error Page Link to Owner
     "unauthorized_owner_email": "abuse@telegram.org", // Unauthorized Error Page Owner Email
-    "arc_code": "jfoY2h19" // arc.io Integraion Code, get yours from https://portal.arc.io
+    "arc_code": "xxxxxxxx" // arc.io Integraion Code, get yours from https://portal.arc.io
 };
 
 
@@ -151,7 +142,7 @@ function html(current_drive_order = 0, model = {}) {
   }
   </style>
   <script src="${uiConfig.jsdelivr_cdn_src}@${uiConfig.version}/js/app.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/AmirulAndalib/Google-Drive-Index@master/js/update.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@master/js/update.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/mozilla/pdf.js@gh-pages/build/pdf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
