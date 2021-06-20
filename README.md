@@ -134,12 +134,12 @@
 ````
 const uiConfig = {
     "theme": "slate", // switch between themes, default set to vapor, select from https://github.com/AmirulAndalib/Google-Drive-Index#themes
-    "version": "2.0.18", // don't touch this one. get latest code using generator at https://bhadoo.mirrorleech.workers.dev
+    "version": "2.0.18-beta.2", // don't touch this one. get latest code using generator at https://bhadoo.mirrorleech.workers.dev
     // If you're using Image then set to true, If you want text then set it to false
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
     "logo_width": "100px", // only if logo_image is true
-    "favicon": "https://cdn.jsdelivr.net/gh/AmirulAndalib/Google-Drive-Index@2.0.17-alpha.7/images/favicon.ico",
+    "favicon": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.17-alpha.7/images/favicon.ico",
     // if logo is true then link otherwise just text for name
     "logo_link_name": "https://cdn.jsdelivr.net/gh/jscdn/svg@1.0.3/bhadoo-cloud-logo-white.svg",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
@@ -169,16 +169,16 @@ const uiConfig = {
     "second_domain_for_dl": false, // If you want to display other URL for Downloading to protect your main domain.
     "downloaddomain": "https://testing.fetchgoogleapi.workers.dev", // If "second_domain_for_dl": true then enter downloaddomain otherwise keep empty. eg. https://workers.workersname.workers.dev No Trailing '/'
     "poster": "https://cdn.jsdelivr.net/gh/AmirulAndalib/Google-Drive-Index@2.0.10/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
-    "audioposter": "https://cdn.jsdelivr.net/gh/AmirulAndalib/Google-Drive-Index@2.0.10/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
-    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/AmirulAndalib/Google-Drive-Index", // If Project is Forked, then enter your Github repo
+    "audioposter": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.10/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
+    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index", // If Project is Forked, then enter your Github repo
     "render_head_md": true, // Render Head.md
     "render_readme_md": true, // Render Readme.md
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
-    "plyr_io_version": "3.6.4", // Change plyr.io version in future when needed.
+    "plyr_io_version": "3.6.8", // Change plyr.io version in future when needed.
     "plyr_io_video_resolution": "16:9" // For reference, visit: https://github.com/sampotts/plyr#options
     "unauthorized_owner_link": "https://telegram.dog/Telegram", // Unauthorized Error Page Link to Owner
     "unauthorized_owner_email": "abuse@telegram.org", // Unauthorized Error Page Owner Email
-    "arc_code": "jfoY2h19" // arc.io Integraion Code, get yours from https://portal.arc.io
+    "arc_code": "xxxxxxx" // arc.io Integraion Code, get yours from https://portal.arc.io
 };
 ````
 
