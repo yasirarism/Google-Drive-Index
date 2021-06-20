@@ -1,13 +1,13 @@
 # Google Personal/Shared Drive Index  Backup 
 
-[![](https://data.jsdelivr.com/v1/package/gh/AmirulAndalib/Google-Drive-Index/badge/year)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index)
-[![](https://data.jsdelivr.com/v1/package/gh/AmirulAndalib/Google-Drive-Index/badge/month)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index) 
-[![](https://data.jsdelivr.com/v1/package/gh/AmirulAndalib/Google-Drive-Index/badge/week)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index) 
-[![](https://data.jsdelivr.com/v1/package/gh/AmirulAndalib/Google-Drive-Index/badge/day)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index) 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAmirulAndalib%2FGoogle-Drive-Index&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/AmirulAndalib/Google-Drive-Index)
+[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/year)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index)
+[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/month)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index) 
+[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/week)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index) 
+[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/day)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index) 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FOneFusionPlus%2FGoogle-Drive-Index&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/OneFusionPlus/Google-Drive-Index)
 
 
-# [READ THIS TO FIX ISSUES](https://github.com/AmirulAndalib/Google-Drive-Index/wiki/Getting-Started-with-gdi.js.org)
+# [READ THIS TO FIX ISSUES](https://github.com/OneFusionPlus/Google-Drive-Index/wiki/Getting-Started-with-gdi.js.org)
 
 # This is A BackUp repo of Official Google Drive Index By ParveenBhadoo...
 
@@ -19,9 +19,9 @@
 
 ### [Generate Code](https://bhadoo.mirrorleech.workers.dev/)
 
-* Discuss Problems here at [Discussions](https://github.com/AmirulAndalib/Google-Drive-Index/discussions)
+* Discuss Problems here at [Discussions](https://github.com/OneFusionPlus/Google-Drive-Index/discussions)
 * Supports Both My and Team/Shared Drives with Dark Mode.
-* Click https://bhadoo.mirrorleech.workers.dev to make yours or watch https://youtu.be/Ihk4Gm3DPvg.
+* Click https://bhadoo.mirrorleech.workers.dev to make yours 
 
 [![](https://opengraph.githubassets.com/cc723ada47a587e6a6de9850ee06dc5e6eeeb8a33560e9313cafdebc4c18bb42/AmirulAndalib/Google-Drive-Index)](https://github.com/AmirulAndalib/Google-Drive-Index)
 
@@ -37,7 +37,7 @@
 
 ## Demo Site
 
-* [testing.fetchgoogleapi.workers.dev/](https://testing.fetchgoogleapi.workers.dev/)
+* [snowy.connectvip.workers.dev/](https://snowy.connectvip.workers.dev/)
 
 ## How to
 
@@ -57,7 +57,6 @@
 * Now paste the code you copied before.
 * Click on Save and Deploy.
 * Done. (May take time for some users due to new account or cache issues)
-* [Watch Video](https://youtu.be/Ihk4Gm3DPvg)
 
 ## Basic Config
 
@@ -249,7 +248,7 @@ const uiConfig = {
 * Select Desktop App.
 * Now you have your own CLIENT ID and CLIENT SECRET.
 * Copy your details and save for future use.
-* Copy [this](https://github.com/AmirulAndalib/Google-Drive-Index/blob/master/worker/worker-generator.js) code.
+* Copy [this](https://github.com/OneFusionPlus/Google-Drive-Index/blob/master/worker/worker-generator.js) code.
 * Replace Line 6 and 7 with your own CLIENT ID and CLIENT SECRET.
 * Paste this code in Cloudflare Workers and follow the site.
 
@@ -259,7 +258,6 @@ const uiConfig = {
 
 ## Other Indexes
 
-* [Edited Version](https://gist.github.com/AmirulAndalib/52ffbfcfa24e53f8afad4851618307fc) based on [goindex-theme-acrou](https://github.com/Achrou/goindex-theme-acrou)
 * List of Few [Indexes](https://github.com/alx-xlx/goindex)
 
 ## Credits
@@ -273,20 +271,10 @@ const uiConfig = {
 
 * This project is not associated with Google, this project uses Google Drive API to Index Files and Folders.
 * These Index's are written by someone else, possibly by donva and [maple3142](https://github.com/maple3142/GDIndex).
-* Beta Version is redesigned using Bootstrap from Alpha Version by @AmirulAndalib.
+* Beta Version is redesigned using Bootstrap from Alpha Version by AmirulAndalib.
 * This Repo was imported from [yanzai](https://github.com/yanzai/goindex) and then modified for personal use. After requests from many users made public with user requirements.
 
 ## Privacy Policy
 
 * [Privacy Policy](https://gdi.js.org/privacy)
-* [LICENSE](https://github.com/AmirulAndalib/Google-Drive-Index/blob/master/LICENSE)
-
-## Support this Project
-
-[![Support](https://cdn.buymeacoffee.com/buttons/v2/default-white.png)](https://www.buymeacoffee.com/bhadoo)
-
-### Donate by Crpto
-
-* ETH `0xaf25cdc7967213172a745453a64e8a0b59686729`
-* BTC `3BgSznxLB5u4WiuVERb1dKWeTqSSwK9NPW`
-* BAT `0xaf25cdc7967213172a745453a64e8a0b59686729`
+* [LICENSE](https://github.com/OneFusionPlus/Google-Drive-Index/blob/master/LICENSE)
